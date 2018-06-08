@@ -1,0 +1,10 @@
+a {
+	font-family: "Open Sans Condensed", sans-serif;
+	text-decoration: none;
+}
+a:visited {
+	color: black;
+}
+a:hover {
+	text-decoration: underline;
+}
