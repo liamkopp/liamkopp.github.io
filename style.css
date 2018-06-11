@@ -59,12 +59,17 @@ a:hover {
 	justify-content: center;
 	flex-direction: column;
 	flex: 1 0 320px;
-	/*box-sizing: border-box;*/
 }
 #header > div {
 	display: flex;
 	justify-content: center;
 	margin: 2px 5px 2px 5px;
+}
+#header > div:first-child {
+	margin-top: 10px;
+}
+#header > div:last-child {
+	margin-bottom: 20px;
 }
 #header i {
 	margin: 10px;
@@ -74,21 +79,20 @@ a:hover {
 	display: flex;
 	flex-direction: column;
 	flex: 3 1 500px;
-	/*min-width: 500px;*/
 	background-image: url("pic.jpg");
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
 	justify-content: center;
 	align-items: center;
-	/*box-sizing: border-box;*/
+	min-height: 250px;
 }
 #body > a {
 	display: flex;
 	/*justify-content: center;*/
 	align-items: center;
 	height: 35px;
-	font-size: 30px;
+	font-size: 25px;
 	width: 450px;
 	border: 2px white solid;
 	border-radius: 10px;
@@ -96,6 +100,12 @@ a:hover {
 	padding: 15px;
 	color: white;
 	/*background-color: rgba(255,255,255,0.7);*/
+}
+#body > a:first-child {
+	margin-top: 20px;
+}
+#body > a:last-child {
+	margin-bottom: 20px;
 }
 #timer {
 	display: flex;
@@ -115,6 +125,7 @@ a:hover {
 	font-family: "Open Sans", sans-serif;
 	/*justify-content: center;*/
 }
+
 
 
 
