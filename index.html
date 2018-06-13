@@ -14,10 +14,9 @@
 			<div id="header">
 				<div id="title">LIAM KOPP</div>
 				<div class="description">Athlete, B.Eng.</div>
-				<div>
+				<div id="social-media">
 					<a href="https://www.instagram.com/liamkopp/"><i class="fab fa-instagram"></i></a>
 					<a href="https://www.linkedin.com/in/liam-kopp-45855791/"><i class="fab fa-linkedin"></i></a>
-					<a href="mailto:liam.r.kopp@gmail.com"><i class="far fa-envelope"></i></a>
 				</div>
 				<div id="imgdiv">
 					<img src="nt-pic.png" width="200" height="200" alt="liam-headshot">
@@ -33,6 +32,21 @@
 					<div class="icondesc">PORTFOLIO</div>				
 				</a>
 			</div>
-		</div>		
+		</div>
+		<script type="text/javascript">
+			var socialMedia = document.getElementById("social-media");
+			var eml = document.createElement("a");
+			var emlName = 'liam.r.kopp';
+			emlName += '@';
+			emlName += 'gmail.com';
+			eml.setAttribute("href", "mailto:" + emlName);
+
+			var emlIcon = document.createElement("i");
+			emlIcon.setAttribute("class", "far fa-envelope");
+
+			var finalEml = socialMedia.appendChild(eml);
+			finalEml.appendChild(emlIcon);
+
+		</script>		
 	</body>
 </html>
