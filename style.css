@@ -62,7 +62,7 @@ a:hover {
 	display: flex;
 	flex-direction: column;
 	flex: 3 1 500px;
-	background-image: url("pic.jpg");
+	background-image: url("pic_converted.jpg");
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
